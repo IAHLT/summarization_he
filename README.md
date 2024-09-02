@@ -66,9 +66,7 @@ The articles come from the following sources:
 
 ### Summary data
 
-The released sample data serves as a snapshot of the project's ongoing work and
-adheres to the project guidelines. The data is provided in JSON Lines (JSONL)
-format, with each line representing a record that contains the following
+The data is provided in JSON Lines (JSONL) format, with each line representing a record that contains the following
 fields:
 
 - `text_raw`: The full text of the original article in Hebrew
