@@ -1,5 +1,12 @@
 # Text Summarization in Hebrew
 
+
+האיגוד הישראלי לטכנולוגיות שפת אנוש
+الرابطة الإسرائيلية لتكنولوجيا اللغة البشرية
+
+The Israeli Association of Human Language Technologies
+https://www.iahlt.org
+
 ## Project Scope
 
 The goal of this project is to create a high-quality, human-annotated dataset
