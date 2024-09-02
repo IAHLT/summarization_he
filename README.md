@@ -45,13 +45,18 @@ The release includes the following files:
 This release contains 5368 article summaries of 5076 articles;
 they come from the following sources:
 
-Summaries  Source
----------  ------
-68         Bagatz
+Summaries | Source |
+-----------------------
+68        | Bagatz |
+-----------------------
 2182       Israel_Hayom
+-----------------------
 396        Knesset
+-----------------------
 945        Weizmann
+-----------------------
 1777       Wikipedia
+-----------------------
 
 ## Format
 
