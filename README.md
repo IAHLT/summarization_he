@@ -38,25 +38,29 @@ the summary according to the instructions in the `silver_guidelines.pdf` file.
 
 The release includes the following files:
 
-- summarization-7-heb.jsonl: article summaries
+- summarization-7-heb.jsonl.zip: article summaries
 - summarization-7-heb-iaa.tsv: interannotator agreement scores
-- guidelines.pdf: The guidelines used for summarization.
+- guidelines.pdf: The general guidelines used for summarization
+- silver_guidelines.pdf: The guidelines used for silver.
 
-This release contains 5368 article summaries of 5076 articles;
-they come from the following sources:
+This release contains 5368 summaries of 5076 unique articles.
+Gold/Silver summary distribution:
 
-Summaries | Source |
------------------------
-68        | Bagatz |
------------------------
-2182       Israel_Hayom
------------------------
-396        Knesset
------------------------
-945        Weizmann
------------------------
-1777       Wikipedia
------------------------
+| Type | Summaries |
+| :---   | ---: |
+| Only gold | 2082 | 
+| Only silver | 2944 | 
+| Silver + Gold | 50 | 
+
+The articles come from the following sources:
+
+| Summaries | Source |
+| :---   | ---: |
+| Bagatz | 68 |
+| Israel Hayom | 2182 |
+| Knesset | 396 |
+| Weizmann | 945 |
+| Wikipedia | 1777 |
 
 ## Format
 
@@ -89,29 +93,31 @@ in TSV format with the following columns:
 - `recall`: the precision output by BERTScore
 - `F1`: the precision output by BERTScore
 
-[BERTScore]: https://arxiv.org/abs/1904.09675
-[AlephBERT]: https://arxiv.org/abs/2104.04052
+<br/>
+
+[BERTScore]: https://arxiv.org/abs/1904.09675 <br/>
+[AlephBERT]: https://arxiv.org/abs/2104.04052  <br/>
 
 ## Acknowledgements
 
 We would like to thank all the people who contributed to this corpus:
 
-Alon Mannor
-Amir Zeldes
-Ariela Ben-Dov
-Emmanuelle Kowner
-Gil Godinger
-Israel Landau
-Leaya Porter
-Kfir Bar
-Maayan Orner
-Nick Howell
-Noam Ordan
-Omer Strass
-Rut Rosner
-Rotem Ecker
-Shahar Adar
-Shira Wigderson
-Tamar Levi
-Yifat Ben Moshe
+Alon Mannor <br/>
+Amir Zeldes <br/>
+Ariela Ben-Dov <br/>
+Emmanuelle Kowner <br/>
+Gil Godinger <br/>
+Israel Landau<br/>
+Leaya Porter<br/>
+Kfir Bar<br/>
+Maayan Orner<br/>
+Nick Howell<br/>
+Noam Ordan<br/>
+Omer Strass<br/>
+Rut Rosner<br/>
+Rotem Ecker<br/>
+Shahar Adar<br/>
+Shira Wigderson<br/>
+Tamar Levi<br/>
+Yifat Ben Moshe<br/>
 
