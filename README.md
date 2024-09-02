@@ -1,4 +1,4 @@
-# IAHLT Text Summarization
+# Text Summarization in Hebrew
 
 ## Project Scope
 
