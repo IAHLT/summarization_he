@@ -60,7 +60,7 @@ Gold/Silver summary distribution:
 
 The articles come from the following sources:
 
-| Summaries | Source |
+| Source | Summaries |
 | :---   | ---: |
 | Bagatz | 68 |
 | Israel Hayom | 2182 |
