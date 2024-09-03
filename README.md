@@ -84,7 +84,7 @@ fields:
 - `summary`: The human-annotated summary of the article in Hebrew
 - `user`: The handle of the annotator
 
-### Inter-annotator agreement
+## Inter-annotator agreement
 
 Inter-annotator agreement is calculated using [BERTScore] with [AlephBERT]; see
 the references for detailed information. Multiply-summarized articles have all
