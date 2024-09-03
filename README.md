@@ -39,7 +39,6 @@ For this approach, we first used a generative large language model to create the
 supporting sentences from the text for each summary sentence. An annotator then reviewed and corrected 
 the summary according to the instructions in the `silver_guidelines.pdf` file.
 
-### Inter-annotator agreement
 
 ## Contents
 
@@ -85,6 +84,7 @@ fields:
 - `summary`: The human-annotated summary of the article in Hebrew
 - `user`: The handle of the annotator
 
+### Inter-annotator agreement
 
 Inter-annotator agreement is calculated using [BERTScore] with [AlephBERT]; see
 the references for detailed information. Multiply-summarized articles have all
